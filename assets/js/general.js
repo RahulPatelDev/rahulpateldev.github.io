@@ -75,26 +75,26 @@ $(document).ready(function() {
     });
 
     // nice scroll
-    $('.scroll-bar').each(function() {
-        var _this = $(this);
-        _this.niceScroll({
-            cursorcolor: '#dadce0',
-        });
-    });
+    // $('.scroll-bar').each(function() {
+    //     var _this = $(this);
+    //     _this.niceScroll({
+    //         cursorcolor: '#dadce0',
+    //     });
+    // });
 
 });
 
 // Apply nice scroll bar to mouseover
 
-$('.scroll-bar').mouseover(function() {
-    $('.scroll-bar').each(function() {
-        var _this = $(this);
-        _this.niceScroll({
-            cursorcolor: '#dadce0',
-        });
-    });
-    $('.scroll-bar').getNiceScroll().resize();
-});
+// $('.scroll-bar').mouseover(function() {
+//     $('.scroll-bar').each(function() {
+//         var _this = $(this);
+//         _this.niceScroll({
+//             cursorcolor: '#dadce0',
+//         });
+//     });
+//     $('.scroll-bar').getNiceScroll().resize();
+// });
 
 
 /***Window Resize***/
